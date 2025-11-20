@@ -33,6 +33,28 @@
 - *category_correction_solutions.txt*: Файл с рекомендациями по категориям.
 - *dialogs_with_corrected_status.xlsx*: Финальный файл.
 
+ai-dialogue-analyzer/
+│
+├── requirements.txt
+├── main.py
+├── .env
+├── improved_analyzer.py
+├── error_categorizer.py
+├── script_generator.py
+├── visualizer.py
+├── config.py
+├── gigachat_generator.py
+├── recommendation_selector.py
+│
+├── data/
+├── ai/
+│
+└── output/
+    ├── final_confirmed_errors.xlsx
+    ├── correction_table.xlsx
+    ├── category_correction_solutions.txt
+    └── dialogs_with_corrected_status.xlsx
+
 Этот проект использует виртуальное окружение Python и зависимости для работы. Следуйте этим шагам для установки и запуска приложения.
 
 ## Шаги:
