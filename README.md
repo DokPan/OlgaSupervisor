@@ -23,37 +23,15 @@
 - **visualizer.py**: Создание графиков и дашбордов.
 - **config.py**: Настройки и паттерны анализа.
 - **📁data/**: Диалоги для анализа.
-- **📁ai/**: Диалоги для анализа.
-- **gigachat_generator.py**: Промт и запрос для API.
-- **recommendation_selector.py**: Интерактив для выбора обработки.
-- **script_generator.py**: Генерация скриптов.
-- **📁 output/**: Результаты работы.
-- *final_confirmed_errors.xlsx*: Файл с найдеными ошибками.
-- *correction_table.xlsx*: Файл с исправлеными статусами.
-- *category_correction_solutions.txt*: Файл с рекомендациями по категориям.
-- *dialogs_with_corrected_status.xlsx*: Финальный файл.
-
-ai-dialogue-analyzer/
-│
-├── requirements.txt
-├── main.py
-├── .env
-├── improved_analyzer.py
-├── error_categorizer.py
-├── script_generator.py
-├── visualizer.py
-├── config.py
-├── gigachat_generator.py
-├── recommendation_selector.py
-│
-├── data/
-├── ai/
-│
-└── output/
-    ├── final_confirmed_errors.xlsx
-    ├── correction_table.xlsx
-    ├── category_correction_solutions.txt
-    └── dialogs_with_corrected_status.xlsx
+- **📁ai/**:.
+  - *gigachat_generator.py*: Промт и запрос для API.
+  - *recommendation_selector.py*: Интерактив для выбора обработки.
+  - *script_generator.py*: Генерация скриптов.
+- **📁 output/**: Результаты работы:
+  - *final_confirmed_errors.xlsx* - найденные ошибки
+  - *correction_table.xlsx* - исправленные статусы
+  - *category_correction_solutions.txt* - рекомендации по категориям
+  - *dialogs_with_corrected_status.xlsx* - финальный результат
 
 Этот проект использует виртуальное окружение Python и зависимости для работы. Следуйте этим шагам для установки и запуска приложения.
 
